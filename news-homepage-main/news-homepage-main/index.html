@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="./styles.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <img src="./assets/images/logo.svg" alt="">
+      </div>
+      <nav class="navigation">
+        <ul class="navigation-bar">
+          <li class="navigation-bar__item">
+            <a class="navigation-bar__item_a" href="#">Home</a>
+          </li>
+          <li class="navigation-bar__item">
+            <a class="navigation-bar__item_a" href="#">New</a>
+          </li>
+          <li class="navigation-bar__item">
+            <a class="navigation-bar__item_a" href="#">Popular</a>
+          </li>
+          <li class="navigation-bar__item">
+            <a class="navigation-bar__item_a" href="#">Trending</a>
+          </li>
+          <li class="navigation-bar__item">
+            <a class="navigation-bar__item_a" href="#">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <img class="icon-menu" src="./assets/images/icon-menu.svg" alt="">
+      <img class="icon-menu-close" src="./assets/images/icon-menu-close.svg" alt="">
+    </header>
+    <!-- /Header -->
+    <!-- Main -->
+    <main>
+      <div class="main-contents">
+        <div class="main-bar">
+          <img class="main-bar-img" src="./assets/images/image-web-3-desktop.jpg" alt="">
+          <img class="mobile-img-bar" src="./assets/images/image-web-3-mobile.jpg" alt="">
+          <div class="main-bar__contents">
+            <div class="highly-content">
+              The Bright Future of Web 3.0?
+            </div>
+            <div class="about-content">
+              <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                But is it really fulfilling its promise?</p>
+              <button class="read-more">Read more</button>
+            </div>
+          </div>
+        </div>
+        <!-- news bar -->
+        <div class="news-bar">
+          <div class="news-bar__title">New</div>
+          <div class="news-bar__items">
+            <div class="news-bar__item">
+              <h4 class="news-bar__item_title">
+                Hydrogen VS Electric Cars
+              </h4>
+              <p class="news-bar__item_p">
+                Will hydrogen-fueled cars ever catch up to EVs?
+              </p>
+            </div>
+            <div class="news-bar__item">
+              <h4 class="news-bar__item_title">
+                The Downsides of AI Artistry
+              </h4>
+              <p class="news-bar__item_p">
+                What are the possible adverse effects of on-demand AI image generation?              </p>
+            </div>
+            <div class="news-bar__item">
+              <h4 class="news-bar__item_title">
+                Is VC Funding Drying Up?
+              </h4>
+              <p class="news-bar__item_p">
+                Private funding by VC firms is down 50% YOY. We take a look at what that means.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="products-bar">
+        <div class="products_bar__item">
+          <img class="products_bar__item_img" src="./assets/images/image-retro-pcs.jpg" alt="">
+          <div class="products_bar__item_contents">
+            <h2 class="product-counts">
+              01
+            </h2>
+            <h4 class="product_title">
+              Reviving Retro PCs
+            </h4>
+            <p class="product_content">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="products_bar__item">
+          <img class="products_bar__item_img" src="./assets/images/image-top-laptops.jpg" alt="">
+          <div class="products_bar__item_contents">
+            <h2 class="product-counts">
+              02
+            </h2>
+            <h4 class="product_title">
+              Top 10 Laptops of 2022
+            </h4>
+            <p class="product_content">
+              Our best picks for various needs and budgets.            </p>
+          </div>
+        </div>
+        <div class="products_bar__item">
+          <img class="products_bar__item_img" src="./assets/images/image-gaming-growth.jpg" alt="">
+          <div class="products_bar__item_contents">
+            <h2 class="product-counts">
+              03
+            </h2>
+            <h4 class="product_title">
+              The Growth of Gaming
+            </h4>
+            <p class="product_content">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- /Main -->
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Davlat Berdinazarov</a>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
